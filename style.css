@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-image: url(background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    height: auto;
+    width: auto;
+    background-color: #ffffff87;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    align-items: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    text-align: center;
+    height: 35vmax;
+    width: 50vmax;
+    position: relative;
+}
+
+.input-group {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 20vmax;
+}
+
+#temperatureInput {
+    height: 3vmax;
+    padding-left: 1vmax;
+    padding-right: 1vmax;
+    background-color: #ffffff80;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    border: none;
+}
+
+#fromUnit {
+    height: 3vmax;
+    width: 8vmax;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    border: none;
+    text-align: center;
+    background-color: plum;
+    font-weight: bold;
+    font-size: 1.5vmax;
+}
+
+label {
+    font-size: 2.5vmax;
+    font-weight: bold;
+}
+
+#toUnit {
+    height: 3vmax;
+    width: 8vmax;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    border: none;
+    text-align: center;
+    background-color: plum;
+    font-weight: bold;
+    font-size: 1.5vmax;
+    margin-left: 20px;
+}
+
+.label {
+    margin-top: 1vmax;
+    margin-bottom: 1vmax;
+}
+
+button {
+    height: 5vmax;
+    width: 8vmax;
+    padding: 1.5px;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    background-color: rgb(145, 87, 203);
+    font-size: 1.5vmax;
+    border: none;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+
+.result {
+    position: relative;
+    bottom: -10%;
+    margin-top: 1vmax;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    align-items: center;
+}
+
+#resultText {
+    height: 5vmax;
+    width: 40vmax;
+    background-color: antiquewhite;
+    align-items: center;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3vmax;
+}
+
+footer {
+    position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+      background-color: #3498db;
+      color: white;
+}

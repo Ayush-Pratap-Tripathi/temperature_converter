@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Converter</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Temperature Converter</h1>
+            <div class="input-group">
+                <input type="number" id="temperatureInput" placeholder="Enter temperature">
+                <select id="fromUnit">
+                    <option value="°C">&deg;C</option>
+                    <option value="°F">&deg;F</option>
+                    <option value="K">K</option>
+                </select>
+                <div class="label">
+                    <label for="toUnit">Output unit:</label>
+                    <select id="toUnit">
+                        <option value="°C">&deg;C</option>
+                        <option value="°F">&deg;F</option>
+                        <option value="K">K</option>
+                    </select>
+                </div>
+                <button onclick="convertTemperature()">Convert</button>
+                <div class="result">
+                    <p id="resultText"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <footer>&copy; Ayush Pratap</footer>
+</body>
+
+</html>
